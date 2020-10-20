@@ -32,6 +32,11 @@
           <img src="img/top1.png" alt="" id="top_img"/>
           <i id="prev" class="fas fa-arrow-circle-left size"></i>
           <i id="next" class="fas fa-arrow-circle-right size"></i>
+          <div class="comment">
+            <p class="comment-chage">
+              aaaaaaaaaaaaaaaaaaa</br>aaaaaaaaaaaaaa
+            </p>
+          </div>
         </div>
 
         <section class="main">
@@ -170,7 +175,24 @@
           scrollBar.classList.remove("move-up");
         }
       };
-      
+
+      // コメントの切り替え
+      const commentIndex = [
+        "新しい事を初めてみましょう〜",
+        "他人の事より自分の事",
+        "先進技術の進歩"
+      ]
+      let i = 0;
+      let changeText = document.getElementsByClassName("comment-chage")[0]
+      setInterval(function() {
+        i++;
+          if(i > commentIndex.length - 1){
+            i = 0;
+          }
+  changeText.textContent = commentIndex[i];
+}, 10000);
+
+
 // top画面切り替え
       const setImage = [
         "img/top1.png",

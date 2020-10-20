@@ -49,6 +49,23 @@ a {
   text-decoration: none;
 }
 
+.comment{
+  width: 40%;
+  position: relative;
+  bottom: 400px;
+  right: -500px;
+  background-color: rgba(255, 255, 255, 0.198);
+  border-radius: 30px;
+  height: 150px;
+}
+.comment p{
+  padding: 20px;
+  height: 100px;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
 /* ここから、2列に並んでいるセクション↓ */
 
 .main{
@@ -149,7 +166,13 @@ a {
   position: absolute;
   top: 50%;
   bottom: 50%;
+  transition: all 0.3s ease;
 }
+
+i.fas:hover{
+font-size:3em;
+}
+
 
 .slider i.fa-arrow-circle-right {
   right: 2%;
