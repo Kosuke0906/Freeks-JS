@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTMLカリキュラム2章</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Freeks</h1>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#">メニュー１</a></li>
+          <li><a href="#">メニュー２</a></li>
+          <li><a href="#">メニュー３</a></li>
+          <li><a href="#">メニュー４</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="backImg"></div>
+    <main>
+      <!-- ここから、2列に並んでいるセクション↓ -->
+      <div class="container">
+        <div class="slider">
+          <img src="img/top1.png" alt="" id="top_img"/>
+          <i id="prev" class="fas fa-arrow-circle-left"></i>
+          <i id="next" class="fas fa-arrow-circle-right"></i>
+        </div>
+
+        <section class="main">
+          <div>
+            <h1>学習可能言語</h1>
+          </div>
+          <div class="contents">
+
+            <div class="item">
+              <a href="#">
+                <img src="img/PHP.png" />
+                <p>サーバーサイドで動的なWebページを作成するための言語</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="img/Java.png" />
+                <p>世界で最も人気のある汎用的なプログラミング言語</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="img/js.png" />
+                <p>ブラウザ上でWEbページをダイナミックに動かせる言語</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="img/MySQL.png" />
+                <p>リレーショナルデータベースを操作する言語</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="img/se.png" />
+                <p>システムエンジニアとして設計書や仕様書について学ぶ</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="img/Python.png" />
+                <p>機械学習やWebアプリ開発に使われるプログラミング言語</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ここから、左右に振り分けているセクション↓ -->
+        <section class="desc">
+          <h1>- 各言語の特徴 -</h1>
+          <div class="lang">
+            <img src="img/PHP.png" width="300px" />
+            <p>
+              PHPは "The PHP Group"
+              によってコミュニティベースで開発されているオープンソースの汎用プログラミング言語およびその公式の処理系であり、特にサーバーサイドで動的なウェブページ作成するための機能を多く備えていることを特徴とする。
+            </p>
+          </div>
+          <div class="lang">
+            <img src="img/Java.png" width="300px" />
+            <p>
+              Javaは、クラスベースのオブジェクト指向の、実装の依存関係をできるだけ少なくするように設計された汎用プログラミング言語である。これは、アプリケーション開発者が一度書いたらどこでも実行できるようにすることを目的としている。
+            </p>
+          </div>
+          <div class="lang">
+            <img src="img/js.png" width="200px" height="200px" />
+            <p>
+              JavaScriptとは、プログラミング言語のひとつである。JavaScriptはプロトタイプベースのオブジェクト指向スクリプト言語であるが、クラスなどのクラスベースに見られる機能も取り込んでいる。<br />このカリキュラムでは、主にWebサイトの画面に動きをつけるテクニックを学んでいく。
+            </p>
+          </div>
+          <div class="lang">
+            <img src="img/Python.png" width="200px" height="200px" />
+            <p>
+              Pythonはインタープリタ型の高水準汎用プログラミング言語である。グイド・ヴァン・ロッサムにより創り出され、1991年に最初にリリースされたPythonの設計哲学は、その顕著なホワイトスペースの使用によってコードの可読性が重視されている。
+            </p>
+          </div>
+        </section>
+
+        <!-- ここから、動画を埋め込んでいるセクション↓ -->
+        <section class="movie_section">
+          <h1>- テックチャンネル -</h1>
+          <div class="movies">
+            <div class="movie">
+              <iframe
+              width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/fdqJPOAEuD4"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>
+                「TSUKURU」
+                ができるエンジニアを育成するプログラミングスクールFreeks(フリークス)
+              </p>
+            </div>
+            <div class="movie">
+              <iframe
+              width="100%"
+              height="100%"
+                src="https://www.youtube.com/embed/ctXTfPQZvsU"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>
+                「TSUKURU」
+                ができるエンジニアを育成するプログラミングスクールFreeks(フリークス)
+              </p>
+            </div>
+            <div class="movie">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/WF4oECT_PBQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>
+                【エンジニア基礎知識】
+                あなたはもう知っている！？VScodeの便利機能 で爆速開発
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script>
+      // header見え隠れコード
+      window.onscroll = function () {
+        let scrollBar = document.getElementsByTagName("header")[0];
+        if (document.documentElement.scrollTop > 600) {
+          scrollBar.classList.add("move-up");
+        }
+        if (document.documentElement.scrollTop <= 600) {
+          scrollBar.classList.remove("move-up");
+        }
+      };
+      
+// top画面切り替え
+      const setImage = [
+        "img/top1.png",
+        "img/lap-top2.png",
+        "img/Freeks3.png",
+        "img/coding4.png",
+      ];
+      const view = document.getElementById("top_img");
+      const prev = document.getElementById("prev");
+      const next = document.getElementById("next");
+      let current = 0;
+      prev.addEventListener("click", function () {
+        current--;
+        if (current < 0) {
+          current = setImage.length - 1;
+        }
+        view.src = setImage[current];
+      });
+      next.addEventListener("click", function () {
+        current++;
+        if (current > setImage.length - 1) {
+          current = 0;
+        }
+        view.src = setImage[current];
+      });
+    </script>
+  </body>
+</html>
